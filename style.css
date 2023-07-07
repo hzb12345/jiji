@@ -1,0 +1,70 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+.header{
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	padding: 10px 10%;
+	background: rgb(255,255,255,0.1);
+	width: 80%;
+}
+.LOGO h1{
+	color: pink;
+	letter-spacing: 5px;
+	font-size: 40px;
+}
+.nav a{
+	text-decoration: none;
+	color: white;
+	font-size: 16PX;
+	margin-left: 29PX;
+}
+.banner{
+	width:100%;
+	height: 100%;
+
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+#about{
+	display: flex;
+	justify-content: space-between;	
+	width:80%;
+	margin:30 auto;
+}
+.about-img{
+	width: 45%;
+	height: 600px;
+}
+.about-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.about-text{
+	width: 50%;
+}
+.about-text p{
+	line-height: 1.8;
+}
+#work ul{
+	display: flex;
+	width: 1200px;
+	margin: auto;
+}
+#work ul li{
+	width: 25%;
+}
+#work ul li img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
